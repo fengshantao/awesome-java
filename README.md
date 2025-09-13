@@ -2,6 +2,26 @@
 
 A curated list of awesome Java frameworks, libraries and software.
 
+## Documentation
+
+Comprehensive API and component documentation is available in the `docs/` directory and can be served locally with MkDocs.
+
+Quick start:
+
+```bash
+pip install mkdocs mkdocs-material
+mkdocs serve
+```
+
+Then open `http://127.0.0.1:8000`.
+
+Sections include:
+
+- APIs: REST and library APIs with signatures and examples
+- Components: React, Vue, and Web Components with props and usage
+- Guides: getting started, usage patterns
+- Examples: end‑to‑end examples
+
 ## Contents
 
 - [Projects](#projects)

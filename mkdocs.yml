@@ -1,0 +1,30 @@
+site_name: Project Documentation
+site_url: https://example.com/docs/
+theme:
+  name: material
+  features:
+    - navigation.expand
+    - navigation.indexes
+    - search.suggest
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+nav:
+  - Home: index.md
+  - APIs:
+      - Overview: apis/README.md
+      - REST APIs: apis/rest.md
+      - Library APIs: apis/library.md
+  - Components:
+      - Overview: components/README.md
+      - React: components/react.md
+      - Vue: components/vue.md
+      - Web Components: components/web-components.md
+  - Guides:
+      - Getting Started: guides/getting-started.md
+      - Usage Patterns: guides/usage.md
+  - Examples: examples/README.md
+  - Contributing: contributing.md
